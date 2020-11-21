@@ -1,0 +1,410 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+ html {
+    overflow-x: hidden;
+}
+
+body {
+    font-size: 16px;
+    line-height: 1.4;
+    background: #fff;
+    position: relative;
+      font-family: 'PT Sans', sans-serif;
+}
+.def-color
+{
+  color: tomato;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5 {
+    line-height: 1.45;
+    color: rgba(36, 33, 33, 0.726)141, 135, 135);
+    font-weight: bold;
+}
+.h6
+{
+  line-height: 1.45;
+    color: rgba(36, 33, 33, 0.726)141, 135, 135);
+    font-weight: bold;
+    font-size: 1.3rem!important;}
+.h7
+{
+  
+    color: rgba(36, 33, 33, 0.726)141, 135, 135);
+    font-weight: bold;
+    font-size: 2rem!important;
+}
+
+.p1
+{
+  font-size: 1rem;
+}
+.mt-6
+{
+  margin-top: 4rem;
+
+}
+.mt-7
+{
+  margin-top: 6rem;
+}
+.pt-6
+{
+  padding-top: 5rem;
+}
+.bg-dark
+{
+  background-color:#34495E!important;
+}
+.text-dark
+{
+  text-decoration: none!important;
+}
+.bg-page
+{
+  background-color:#34495E!important;
+  color: rgba(255, 255, 255, 0.83);
+}
+/*Header Section logo*/
+.header-img img
+{
+   width: 240px;
+}
+.text-span
+{
+  display: block;
+    margin-top: 30px;
+}
+.text1
+{
+    font-size: 1rem;
+    margin-bottom: 0rem;
+    margin-top: 6px;
+    float: left;
+    font-weight: 100;
+    padding-left: .3rem;
+}
+.text2
+{
+    font-size: 1rem;
+    margin-bottom: 0rem;
+    margin-top: 7px;
+    float: left;
+    font-weight: 100;
+    padding-left: .3rem;
+}
+.text-icon
+{
+    float: left;
+    font-size: 1.2rem;
+    margin-top: 8px;
+  
+
+}
+.text-icon1
+{
+    float: left;
+    font-size: 2rem;
+    margin-top: 1px;
+    padding-left: 10px;
+
+
+}
+/*Header Section logo*/
+
+/*Header Section menu*/
+ .navbar-toggler
+ {
+  margin-top: 25px;
+ }
+ .navbar-toggler-icon
+ {
+  width: 1.5rem;
+  height: 1.3rem;
+  background-size: 120% 150%;
+ }
+.menu-text
+{
+      color:  #34495E;
+    font-size: 1.2rem;
+    margin-bottom: 0px;
+    font-weight: 100;
+    font-family: 'Source Sans Pro', sans-serif;
+    border-bottom: 2px solid #fff;
+     transform: border-bottom;
+     transition: .5s;
+    transition-timing-function: ease;
+
+}
+.navlink-border
+{ 
+
+}
+
+.menu-text:hover
+{
+  border-bottom: 2px solid #34495E;
+}
+.dropdown-menu
+{
+  background-color: #34495E!important;
+
+}
+.dropdown-menu a
+{
+  background-color: #34495E!important;
+   color: #fff!important;
+    font-size: 1.2rem;
+     font-weight: 100;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+.dropdown-menu a:hover
+{
+  color: #34495E!important;
+  background-color:  #fff!important;
+}
+/*Header Section menu*/
+
+ /*Slider section*/
+   
+   .carousel-control-next-icon,.carousel-control-prev-icon
+   {
+      display: none;
+   }
+   .carousel-indicators li
+   {
+    display: none;
+   }
+   .carousel-text
+   {
+    left: -30%!important;
+    top: 30%!important;
+   }
+   .slider-head-text
+   {
+       font-size: 2.5rem;
+   font-family: 'Oxygen', sans-serif;
+   /* animation-name: fade;
+    animation-duration: 0.5s; */
+   }
+
+   /* @keyframes fade{
+   
+     0%{margin-left: -600px}
+     100%{margin-left: 0;}
+    */
+
+   }
+   .slider-paragraph
+   {
+    font-size: 1.3rem;
+   
+    font-weight: 100;
+   font-family: 'Baloo Tamma 2', cursive;
+
+    animation-name: fade;
+    animation-duration: 0.5s;
+
+   }
+  
+
+ /*Slider section*/
+
+ /*About section */
+ .about-section-title
+ {
+   border-bottom: 3px solid #343a40;
+  font-family: 'PT Sans', sans-serif!important;
+  font-size: 2rem;
+ }
+ .about-section-paragraph
+ {
+   font-family: 'PT Sans', sans-serif!important;
+   font-size: 1rem;
+ }
+ /*About section */
+
+/*service section*/
+.card-body-text
+ {
+   padding: 0px;
+   padding-top: 1rem;
+ }
+ .card
+ {
+  border: 0px solid white;
+ }
+ .card-body-edit
+ {
+  padding: 0px!important;
+ }
+ .card-title-text
+ {
+   font-size: 1.3rem!important;
+ }
+ .card-icon
+ {
+  font-size: 3rem!important;
+ 
+ }
+/*service section*/
+
+/* Greater 2 section */
+.bg-clr1
+{
+  
+  background-image: url("../img/img4.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  opacity: 1;
+
+}
+.bg-clr2
+{
+  background-color: rgba(57, 181, 219, 0.83);
+  background-size: 100%;
+
+  
+}
+.bg-clr1-text h1
+{
+  color:rgba(255, 255, 255, 1)!important;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2rem;
+}
+.container-fluid
+{
+  padding-left: 0px!important;
+  padding-right: 0px!important;
+}
+
+/* Greater 2 section */
+ 
+
+/*  footer */
+
+.footer-img img
+{
+  width: 230px;
+}
+.footer-text
+{
+   font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1rem;
+}
+.footer-text-title h4
+{
+  font-family: 'Baloo Tamma 2', cursive;
+  font-size: 1.2rem!important;
+  color: #212529!important;
+  margin-bottom: 0rem!important;
+}
+.list-group-item
+{
+  padding: .25rem 0rem!important;
+  background-color: #f8f9fa;
+  font-family: 'Source Sans Pro', sans-serif;
+
+}
+.form-control-edit
+{
+
+}
+.btn-edit 
+{
+  padding: 0.25rem 0.25rem 0.25rem 0.25rem !important;
+    background-color: rgba(109, 118, 126, 0.88);
+    color: white;
+}
+.btn-edit:hover
+{
+  background-color: #6c757d;
+}
+.footer-icon
+{
+  display: inline-block;
+  float: left;
+  font-size: 0.85rem!important;
+}
+.footer-icon-text
+{
+  float: left;
+  padding-left: 0.25rem;
+  font-size: 0.85rem!important;
+  font-family: 'Source Sans Pro', sans-serif;
+
+}
+.footer-icon-text-2
+{
+  float: left;
+  padding-left: 0.25rem;
+  font-size: 0.75rem!important;
+  font-family: 'Source Sans Pro', sans-serif;
+  opacity: 0.8;
+
+}
+/*  footer */
+
+
+/* advisory-service */
+
+
+.bg-clr3
+{
+  
+  background-image: url("../img/img5.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  opacity: 1;
+
+}
+.bg-clr4
+{
+  background-color: rgba(255, 255, 255, 0.82);
+  background-size: 100%;
+
+  
+}
+.bg-clr1-text2 h1
+{
+  color:rgba(0, 0, 0, 1)!important;
+  font-family: 'Rubik', sans-serif;
+  font-size: 2rem;
+}
+
+.advisory-service-title
+{
+  font-family: 'PT Sans', sans-serif!important;
+  font-size: 2rem;
+  
+}
+.ln-ht
+{
+  line-height: 1.5!important;
+}
+/* advisory-service */
+
+
+/*Contact Page*/
+.iframe-map
+{
+  height: 450px;
+}
+/*Contact Page*/
