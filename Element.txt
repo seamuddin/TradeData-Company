@@ -1,0 +1,10 @@
+   
+#f8f9fa
+page color:
+ color1: #34495E
+
+   HOME
+   SERVICES
+BUSINESS INQUERY
+   ABOUT US
+   CONTACT US
